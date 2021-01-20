@@ -6,5 +6,6 @@ services:
     build: .
     ports:
     - "4001:8081" 
+ #specifying images for redis and node: redis is from an image from hub and node is from dockerfile
 
     
